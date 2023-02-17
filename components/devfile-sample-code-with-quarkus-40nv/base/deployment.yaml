@@ -28,7 +28,7 @@ spec:
       - env:
         - name: secondEnvVar
           value: "3000"
-        image: quay.io/redhat-appstudio/user-workload:skhileri-tenant-devfile-sample-code-with-quarkus-40nv
+        image: quay.io/redhat-appstudio/user-workload@sha256:c3d95b94d3eed2f688dadf3b7119c87f06ae1177faa3493fa4edb334812bd8e0
         name: my-java-quarkus
         ports:
         - containerPort: 8081
